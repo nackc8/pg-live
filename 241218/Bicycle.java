@@ -28,6 +28,8 @@ class Bicycle {
 
     public static void main(String... args) {
         Bicycle cycle = new Bicycle();
-        System.out.println("Hej");
+        System.out.println("Före");
+        cycle.printStates();
+        cycle.speedUp(10);
     }
 }
