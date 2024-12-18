@@ -4,5 +4,6 @@ public class MountainBike extends Bicycle {
         MountainBike cycle = new MountainBike();
         cycle.speedUp(5);
         cycle.printStates();
+        val cycle2 = new MountainBike();
     }
 }
