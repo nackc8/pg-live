@@ -1,6 +1,8 @@
 
 public class MountainBike extends Bicycle {
     public static void main(String... args) {
-        System.out.print("Hej");
+        MountainBike cycle = new MountainBike();
+        cycle.speedUp(5);
+        cycle.printStates();
     }
 }
