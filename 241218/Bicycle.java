@@ -27,6 +27,7 @@ class Bicycle {
     }
 
     public static void main(String... args) {
+        Bicycle cycle = new Bicycle();
         System.out.println("Hej");
     }
 }
