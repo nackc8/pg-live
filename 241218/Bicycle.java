@@ -31,5 +31,7 @@ class Bicycle {
         System.out.println("Före");
         cycle.printStates();
         cycle.speedUp(10);
+        System.out.println("Efter");
+        cycle.printStates();
     }
 }
