@@ -1,0 +1,5 @@
+/.gitignore
+/.vscode
+/.state
+ignored-*
+**/.idea/workspace.xml **/.idea/tasks.xml
