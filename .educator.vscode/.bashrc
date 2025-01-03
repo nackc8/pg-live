@@ -74,7 +74,7 @@ export PROMPT_COMMAND=_set_bash_prompt
 pwd
 ls --color
 
-datetime="$(date +"%y%m%d,%H%M%S")"
+datetime="$(date +"d%y%m%d,%H%M%S")"
 IFS=, read -r datepart timepart <<<"$datetime"
 
 source .state
