@@ -37,6 +37,6 @@ fi
 
 ln "$script_parent_dir/.educator.gitignore" "$script_parent_dir/.gitignore"
 ln -s "$script_parent_dir/.educator.vscode" "$script_parent_dir/.vscode"
-ln -s "$script_parent_dir/.educator.vscode" "$script_parent_dir/.idea"
+ln -s "$script_parent_dir/.educator.idea" "$script_parent_dir/.idea"
 
 git update-index --skip-worktree "$script_parent_dir/.gitignore"
