@@ -54,13 +54,13 @@
     "editorError.background": "#ffccccaa",
     "editorError.foreground": "#ffcccc00",
     "sideBar.foreground": "#000",
-    "list.activeSelectionBackground": "#000",
-    "list.activeSelectionForeground": "#fff",
-    "list.inactiveSelectionBackground": "#000",
-    "list.inactiveSelectionForeground": "#fff",
+    "list.activeSelectionBackground": "#dfd",
+    "list.activeSelectionForeground": "#00f",
+    "list.inactiveSelectionBackground": "#dfd",
+    "list.inactiveSelectionForeground": "#00f",
     "icon.foreground": "#aaa",
     "list.activeSelectionIconForeground": "#fff"
-  }
+  },
   "workbench.editor.showIcons": false,
   "explorer.decorations.colors": false,
   "editor.colorDecorators": false,
@@ -77,7 +77,7 @@
   "terminal.integrated.defaultProfile.linux": "BashPresentation",
   "terminal.integrated.profiles.linux": {
     "BashPresentation": {
-      "args": ["--init-file", "./.vscode/.bashrc"],
+      "args": ["--init-file", "./.educator.shared/.bashrc"],
       "path": "bash"
     }
   },
