@@ -2,7 +2,7 @@
 
 [ -e /tmp/.autocommit ] && exit
 
-datepart="$(date +"%y%m%d")"
+datepart="$(date +"d%y%m%d")"
 
 tick=5
 
