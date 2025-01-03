@@ -19,9 +19,11 @@ stamp="$(date +%s)"
 if [ "$UNSAFE_LIVE" = "true" ]; then
 	rm -f "$script_parent_dir/.gitignore"
 	rm -rf "$script_parent_dir/.vscode"
+	rm -rf "$script_parent_dir/.idea"
 else
 	mv "$script_parent_dir/.gitignore" "$script_parent_dir/ignored-$stamp-gitignore" 2>/dev/null || true
 	mv "$script_parent_dir/.vscode" "$script_parent_dir/ignored-$stamp-vscode" 2>/dev/null || true
+	mv "$script_parent_dir/.idea" "$script_parent_dir/ignored-$stamp-idea" 2>/dev/null || true
 fi
 
 git update-index --no-skip-worktree "$script_parent_dir/.gitignore"
