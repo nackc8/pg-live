@@ -102,6 +102,9 @@ mkdir -p "$class"
 
 cd "$datepart" || true
 
-script -e -q "--t=recordings/${timepart}_timing.txt" -q "recordings/${timepart}.txt"
+record_timing="recordings/${timepart}_timing.txt"
+record="recordings/${timepart}.txt"
+
+script -e -q "--t=$record_timing" -q "$record"
 
 exit $?
