@@ -9,6 +9,8 @@ ignored*
 #
 /.gitignore
 /.state
+/.vscode
+/.idea
 
 #
 # Java
