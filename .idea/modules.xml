@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/pg-live.iml" filepath="$PROJECT_DIR$/.idea/pg-live.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pg-live.iml" filepath="$PROJECT_DIR$/pg-live.iml" />
     </modules>
   </component>
 </project>
