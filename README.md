@@ -12,6 +12,18 @@ Under din klassmapp finns en katalog för varje lektionsdag. Denna katalog inneh
 
 Se nedan för hur du kan spela upp inspelningarna.
 
+# Uppsättning
+
+Innan start bör följande uppsättning göras för att allt ska fungera.
+
+## IntelliJ
+
+Högerklicka och välj "Mark directory as" enligt:
+
+- date → Excluded
+- out → Excluded
+- $DITT_KLASSNAMN → Sources root
+
 # Att följa med "Live"
 
 Varje lektionsdag får en egen Git-gren där commits automatiskt läggs till och pushas under dagen. För att följa med "live", checka ut den aktuella grenen genom att köra skriptet `./bin/daystart` på morgonen.

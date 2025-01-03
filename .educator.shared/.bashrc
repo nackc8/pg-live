@@ -74,7 +74,7 @@ export PROMPT_COMMAND=_set_bash_prompt
 pwd
 ls --color
 
-datetime="$(date +"%y%m%d,%H%M%S")"
+datetime="$(date +"d%y%m%d,%H%M%S")"
 IFS=, read -r datepart timepart <<<"$datetime"
 
 source .state
@@ -95,12 +95,12 @@ echo -e "class='$class'\nlession_number='$lession_number'" >.state
 
 lession="lektion${lession_number}"
 
-mkdir -p "$datepart/recordings"
-mkdir -p "$class"
+mkdir -p date
+mkdir -p "$class/$lession/recordings"
 
-[ ! -e "$class/$lession" ] && ln -rs "$datepart" "$class/$lession"
+[ ! -e "date/$datepart" ] && ln -rs "$class/$lession" "date/$datepart"
 
-cd "$datepart" || true
+cd "$class/$lession" || true
 
 script -e -q "--t=recordings/${timepart}_timing.txt" -q "recordings/${timepart}.txt"
 

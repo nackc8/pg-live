@@ -1,0 +1,5 @@
+#!/bin/bash
+
+export BASH_ENV=/shared/kent/Documents/programmering3/pg-live/.educator.shared/.bashrc
+
+bash "$@"

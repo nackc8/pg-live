@@ -1,3 +1,5 @@
+package lektion1;
+
 class Bicycle {
 
     int cadence = 0;

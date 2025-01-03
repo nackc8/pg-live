@@ -77,7 +77,7 @@
   "terminal.integrated.defaultProfile.linux": "BashPresentation",
   "terminal.integrated.profiles.linux": {
     "BashPresentation": {
-      "args": ["--init-file", "./.vscode/.bashrc"],
+      "args": ["--init-file", "./.educator.shared/.bashrc"],
       "path": "bash"
     }
   },
