@@ -97,5 +97,6 @@
       "condition": "always",
       "command": "workbench.action.toggleScreencastMode"
     }
-  ]
+  ],
+  "explorer.excludeGitIgnore": true
 }
