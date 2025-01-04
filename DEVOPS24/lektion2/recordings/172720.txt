@@ -1,11 +1,0 @@
-Script started on 2025-01-03 17:27:32+01:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="82" LINES="10"]
-[?2004h
-[34mpg-live/DEVOPS24/lektion2[0m [90md250103[38;5;218m*​​​[36m [0m
-[35m❯[0m echo $H[K[K#[K"$[KHEJSAN@[K"
-[?2004lHEJSAN
-[?2004h
-[34mpg-live/DEVOPS24/lektion2[0m [90md250103[38;5;218m*​​​[36m [0m
-[35m❯[0m [?2004l
-exit
-
-Script done on 2025-01-03 17:28:04+01:00 [COMMAND_EXIT_CODE="0"]

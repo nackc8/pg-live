@@ -8,6 +8,8 @@
 
 source ~/.bashrc
 
+script_dir=$(cd "$(dirname "${BASH_SOURCE[1]}")" && pwd)
+
 _rel_path() {
     local prompt
     local root
@@ -67,19 +69,15 @@ _ask() {
     echo -n "$answer"
 }
 
-export -f _rel_path
-export -f _set_bash_prompt
-export PROMPT_COMMAND=_set_bash_prompt
-
 pwd
 ls --color
 
-datetime="$(date +"d%y%m%d,%H%M%S")"
+datetime="$(date +"%y%m%d,%H%M%S")"
 IFS=, read -r datepart timepart <<<"$datetime"
 
 source .state
 
-if [ ! -e "$datepart" ]; then
+if [ ! -e "date/d$datepart" ]; then
     class="$(_ask 'Ange klass' '[A-Z]+2[3-9]' "$class")"
     lession_number="$(_ask 'Ange lektion' '[1-9][0-9]?' "$((lession_number + 1))")"
     git fetch
@@ -95,15 +93,22 @@ echo -e "class='$class'\nlession_number='$lession_number'" >.state
 
 lession="lektion${lession_number}"
 
-mkdir -p "$datepart/recordings"
+mkdir -p "date/d$datepart/recordings"
 mkdir -p "$class"
 
-[ ! -e "$class/$lession" ] && ln -rs "$datepart" "$class/$lession"
+[ ! -e "$class/$lession" ] && ln -rs "date/d$datepart" "$class/$lession"
 
-cd "$datepart" || true
+cd "date/d$datepart" || true
 
 record_timing="recordings/${timepart}_timing.txt"
 record="recordings/${timepart}.txt"
+
+export -f _rel_path
+export -f _set_bash_prompt
+export PROMPT_COMMAND=_set_bash_prompt
+export SHELL="$script_dir/bash_noprofile_norc"
+
+trap 'read -r size _ < <(wc -c "$record"); if ((size < 500)); then rm "$record" "$record_timing"; fi' EXIT
 
 script -e -q "--t=$record_timing" -q "$record"
 
