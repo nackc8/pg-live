@@ -102,5 +102,5 @@
   "files.exclude": {
     "**/ignored*": false
   },
-  "vscode_custom_css.imports": []
+  "vscode_custom_css.imports": ["file://.educator.vscode/custom.css"]
 }
