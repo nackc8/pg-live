@@ -98,5 +98,8 @@
       "command": "workbench.action.toggleScreencastMode"
     }
   ],
-  "explorer.excludeGitIgnore": true
+  "explorer.excludeGitIgnore": true,
+  "files.exclude": {
+    "**/ignored*": false
+  }
 }
