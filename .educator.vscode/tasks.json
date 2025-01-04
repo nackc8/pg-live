@@ -13,12 +13,6 @@
         "focus": false, // Do not focus the terminal
         "panel": "dedicated" // Use a dedicated terminal panel
       }
-    },
-    {
-      "label": "Enable Screencast Mode",
-      "type": "shell",
-      "command": "code --command workbench.action.toggleScreencastMode",
-      "problemMatcher": []
     }
   ]
 }
