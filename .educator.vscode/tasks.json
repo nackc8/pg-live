@@ -17,7 +17,8 @@
     {
       "label": "Enable Screencast Mode",
       "type": "shell",
-      "command": "code --command workbench.action.toggleScreencastMode",
+      "command": "code",
+      "args": ["--command", "workbench.action.toggleScreencastMode"],
       "problemMatcher": []
     }
   ]
