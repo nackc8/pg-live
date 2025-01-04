@@ -1,26 +1,70 @@
 {
-  "[ansible]": { "editor.defaultFormatter": "redhat.ansible" },
-  "[javascript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-  "[javascriptreact]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-  "[json]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-  "[jsonc]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-  "[jsonl]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-  "[markdown]": {
-    "editor.wordWrap": "bounded",
-    "editor.wordWrapColumn": 80,
-    "editor.tabSize": 4
+  "[ansible]": {
+    "editor.defaultFormatter": "redhat.ansible"
   },
-  "[python]": { "editor.defaultFormatter": "charliermarsh.ruff" },
-  "[shellscript]": { "editor.defaultFormatter": "foxundermoon.shell-format" },
-  "[typescript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-  "[typescriptreact]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
-  "[yaml]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonl]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.tabSize": 4,
+    "editor.wordWrap": "bounded",
+    "editor.wordWrapColumn": 80
+  },
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff"
+  },
+  "[shellscript]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "auto-run-command.rules": [
+    {
+      "command": "workbench.action.toggleScreencastMode",
+      "condition": "always"
+    }
+  ],
+  "breadcrumbs.enabled": false,
+  "debug.console.fontSize": 18,
+  "editor.acceptSuggestionOnEnter": "off",
   "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.colorDecorators": false,
   "editor.cursorStyle": "block",
+  "editor.cursorSurroundingLines": 3,
   "editor.defaultFormatter": "foxundermoon.shell-format",
+  "editor.fontFamily": "'IBM Plex Mono', 'Droid Sans Mono', 'monospace', monospace",
+  "editor.fontLigatures": false,
+  "editor.fontSize": 22,
+  "editor.fontWeight": "600",
   "editor.formatOnSave": true,
+  "editor.inlineSuggest.enabled": false,
   "editor.minimap.enabled": false,
+  "explorer.compactFolders": false,
+  "explorer.decorations.colors": false,
+  "explorer.excludeGitIgnore": true,
   "files.autoSave": "onFocusChange",
+  "files.exclude": {
+    "**/ignored*": false
+  },
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
   "git.autofetch": true,
@@ -28,20 +72,29 @@
   "git.enableSmartCommit": true,
   "git.openRepositoryInParentFolders": "never",
   "json.format.enable": false,
-  "editor.fontLigatures": false,
-  "editor.fontSize": 22,
-  "editor.fontFamily": "'IBM Plex Mono', 'Droid Sans Mono', 'monospace', monospace",
-  "debug.console.fontSize": 18,
   "scm.inputFontFamily": "editor",
   "scm.inputFontSize": 26,
+  "screencastMode.keyboardOptions": {
+    "showKeys": false,
+    "showSingleEditorCursorMoves": false
+  },
+  "screencastMode.keyboardOverlayTimeout": 2000,
+  "screencastMode.mouseIndicatorSize": 60,
+  "screencastMode.verticalOffset": 10,
+  "terminal.integrated.defaultProfile.linux": "BashPresentation",
   "terminal.integrated.fontSize": 20,
   "terminal.integrated.fontWeight": "600",
-  "editor.fontWeight": "600",
-  "window.zoomPerWindow": false,
-  "explorer.compactFolders": false,
-  "editor.acceptSuggestionOnEnter": "off",
-  "editor.inlineSuggest.enabled": false,
+  "terminal.integrated.minimumContrastRatio": 7,
+  "terminal.integrated.profiles.linux": {
+    "BashPresentation": {
+      "args": ["--init-file", "./.educator.shared/.bashrc"],
+      "path": "bash"
+    }
+  },
   "terminal.integrated.suggest.quickSuggestions": false,
+  "vscode_custom_css.imports": [".educator.vscode/custom.css"],
+  "window.zoomPerWindow": false,
+  "workbench.activityBar.location": "hidden",
   "workbench.colorCustomizations": {
     "editor.lineHighlightBackground": "#dfd",
     "editor.lineHighlightBorder": "#bdb",
@@ -58,49 +111,18 @@
     "list.activeSelectionForeground": "#00f",
     "list.activeSelectionIconForeground": "#aaa",
     "list.focusedBackground": "#dfd",
+    "list.hoverBackground": "#dfd",
+    "list.hoverForeground": "#00f",
+    "list.hoverIconForeground": "#00f",
     "list.inactiveSelectionBackground": "#dfd",
     "list.inactiveSelectionForeground": "#00f",
-    "sideBar.foreground": "#000",
     "quickInputList.focusBackground": "#eff",
     "quickInputList.focusForeground": "#aaa",
     "quickInputList.focusIconForeground": "#aaa",
-    "list.hoverBackground": "#dfd",
-    "list.hoverForeground": "#00f",
-    "list.hoverIconForeground": "#00f"
-  },
-  "workbench.editor.showIcons": false,
-  "explorer.decorations.colors": false,
-  "editor.colorDecorators": false,
-  "workbench.iconTheme": null,
-  "breadcrumbs.enabled": false,
-  "editor.cursorSurroundingLines": 3,
-  "screencastMode.keyboardOptions": {
-    "showSingleEditorCursorMoves": false,
-    "showKeys": false
-  },
-  "screencastMode.keyboardOverlayTimeout": 2000,
-  "screencastMode.mouseIndicatorSize": 60,
-  "screencastMode.verticalOffset": 10,
-  "terminal.integrated.defaultProfile.linux": "BashPresentation",
-  "terminal.integrated.profiles.linux": {
-    "BashPresentation": {
-      "args": ["--init-file", "./.educator.shared/.bashrc"],
-      "path": "bash"
-    }
+    "sideBar.foreground": "#000"
   },
   "workbench.colorTheme": "Default High Contrast Light",
-  "terminal.integrated.minimumContrastRatio": 7,
-  "workbench.statusBar.visible": false,
-  "workbench.activityBar.location": "hidden",
-  "auto-run-command.rules": [
-    {
-      "condition": "always",
-      "command": "workbench.action.toggleScreencastMode"
-    }
-  ],
-  "explorer.excludeGitIgnore": true,
-  "files.exclude": {
-    "**/ignored*": false
-  },
-  "vscode_custom_css.imports": [".educator.vscode/custom.css"]
+  "workbench.editor.showIcons": false,
+  "workbench.iconTheme": null,
+  "workbench.statusBar.visible": false
 }
