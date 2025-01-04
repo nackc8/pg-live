@@ -17,6 +17,7 @@
     {
       "label": "Enable Screencast Mode",
       "type": "shell",
+      "runOptions": { "runOn": "folderOpen", "instanceLimit": 1 },
       "command": "code",
       "args": ["--command", "workbench.action.toggleScreencastMode"],
       "problemMatcher": []
