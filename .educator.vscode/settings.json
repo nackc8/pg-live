@@ -125,6 +125,5 @@
   "workbench.editor.showIcons": false,
   "workbench.iconTheme": null,
   "workbench.statusBar.visible": false,
-  "window.zoomLevel": 1,
-  "editor.accessibilitySupport": "on"
+  "window.zoomLevel": 1
 }
