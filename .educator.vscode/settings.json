@@ -44,7 +44,7 @@
     }
   ],
   "breadcrumbs.enabled": false,
-  "debug.console.fontSizeX": 18,
+  "debug.console.fontSize": 14,
   "editor.acceptSuggestionOnEnter": "off",
   "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
   "editor.colorDecorators": false,
@@ -73,7 +73,7 @@
   "git.openRepositoryInParentFolders": "never",
   "json.format.enable": false,
   "scm.inputFontFamily": "editor",
-  "scm.inputfontSizeX": 26,
+  "scm.inputfontSize": 20,
   "screencastMode.keyboardOptions": {
     "showKeys": false,
     "showSingleEditorCursorMoves": false
@@ -82,7 +82,7 @@
   "screencastMode.mouseIndicatorSize": 60,
   "screencastMode.verticalOffset": 10,
   "terminal.integrated.defaultProfile.linux": "BashPresentation",
-  "terminal.integrated.fontSizeX": 20,
+  "terminal.integrated.fontSize": 17,
   "terminal.integrated.fontWeight": "600",
   "terminal.integrated.minimumContrastRatio": 7,
   "terminal.integrated.profiles.linux": {
