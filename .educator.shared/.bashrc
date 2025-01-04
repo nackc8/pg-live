@@ -8,7 +8,7 @@
 
 source ~/.bashrc
 
-script_dir=$(cd "$(dirname "${BASH_SOURCE[1]}")" && pwd)
+script_dir=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
 
 _rel_path() {
     local prompt
