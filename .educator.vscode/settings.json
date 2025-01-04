@@ -91,5 +91,11 @@
   "workbench.colorTheme": "Default High Contrast Light",
   "terminal.integrated.minimumContrastRatio": 7,
   "workbench.statusBar.visible": false,
-  "workbench.activityBar.location": "hidden"
+  "workbench.activityBar.location": "hidden",
+  "auto-run-command.rules": [
+    {
+      "condition": "always",
+      "command": "workbench.action.toggleScreencastMode"
+    }
+  ]
 }
