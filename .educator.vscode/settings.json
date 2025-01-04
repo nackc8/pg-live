@@ -124,5 +124,6 @@
   "workbench.colorTheme": "Default High Contrast Light",
   "workbench.editor.showIcons": false,
   "workbench.iconTheme": null,
-  "workbench.statusBar.visible": false
+  "workbench.statusBar.visible": false,
+  "window.zoomLevel": 1
 }
