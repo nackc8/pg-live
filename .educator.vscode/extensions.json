@@ -1,6 +1,3 @@
 {
-  "recommendations": [
-    "gabrielgrinberg.auto-run-command",
-    "be5invis.vscode-custom-css"
-  ]
+  "recommendations": ["gabrielgrinberg.auto-run-command"]
 }
