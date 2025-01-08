@@ -8,7 +8,9 @@ class CustomException extends Exception {
     public static void main(String[] arg){
         int outside = 10;
         try {
+            System.out.println("innan exception, outside: " + outside);
             throw new CustomException("Ett specialfel inträffade!");
+            System.out.println("efter throw exception, outside: " + outside);
         } catch (CustomException e) {
             System.out.println(e.getMessage());
         }
