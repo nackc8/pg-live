@@ -1,3 +1,5 @@
+package d250108;
+
 class Person {
     String name;
     int age;
@@ -14,7 +16,7 @@ class Person {
     String greet(String greeting) {
         return greeting + ", jag heter " + name + " och är " + age + " år gammal.";
     }
-    
+
     public static void main(String[] args) {
         Person p = new Person("Anna", 30);
         System.out.println(p.greet());
