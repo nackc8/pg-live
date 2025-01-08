@@ -6,6 +6,7 @@ class CustomException extends Exception {
     }
 
     public static void main(String[] arg){
+        int outside = 10;
         try {
             throw new CustomException("Ett specialfel inträffade!");
         } catch (CustomException e) {
