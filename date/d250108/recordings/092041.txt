@@ -1,0 +1,14 @@
+Script started on 2025-01-08 09:20:41+01:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="94" LINES="8"]
+[?2004h[94mdate/d250108 (B[m$ cd ..
+[?2004l[?2004h[94mdate (B[m$ ls
+[?2004ld241218  d250108  date.iml
+[?2004h[94mdate (B[m$ ls -l
+[?2004ltotal 12
+drwxr-xr-x 3 kent kent 4096 Jan  5 13:18 d241218
+drwxr-xr-x 3 kent kent 4096 Jan  8 09:13 d250108
+-rw-r--r-- 1 kent kent  452 Jan  8 09:07 date.iml
+[?2004h[94mdate (B[m$ touch Klass.java[C Klass.javad Klass.java2 Klass.java5 Klass.java0108/ Klass.javarecordings/ Klass.java[1P Klass.java[1P Klass.java[1P Klass.java[1P Klass.java[1P Klass.java[1P Klass.java[1P Klass.java[1P Klass.java[1P Klass.java[1P Klass.java[1P Klass.java[C[1PKlass.java
+[?2004l[?2004h[94mdate (B[m$ exit
+[?2004lexit
+
+Script done on 2025-01-08 09:21:04+01:00 [COMMAND_EXIT_CODE="0"]
