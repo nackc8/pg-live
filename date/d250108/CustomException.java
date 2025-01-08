@@ -13,6 +13,7 @@ class CustomException extends Exception {
             // Körs aldrig pga exception:
             // System.out.println("efter throw exception, outside: " + outside);
         } catch (CustomException e) {
+            System.out.println("i catch, outside: " + outside);
             System.out.println(e.getMessage());
         }
     }
