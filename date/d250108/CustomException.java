@@ -7,6 +7,7 @@ class CustomException extends Exception {
 
     public static void main(String[] arg){
         int outside = 10;
+        System.out.println("försts, outside: " + outside);
         try {
             System.out.println("innan exception, outside: " + outside);
             throw new CustomException("Ett specialfel inträffade!");
@@ -16,5 +17,6 @@ class CustomException extends Exception {
             System.out.println("i catch, outside: " + outside);
             System.out.println(e.getMessage());
         }
+        System.out.println("sist, outside: " + outside);
     }
 }
