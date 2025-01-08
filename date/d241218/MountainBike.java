@@ -1,4 +1,4 @@
-package lektion1;
+package d241218;
 
 public class MountainBike extends Bicycle {
     public static void main(String... args) {

@@ -1,0 +1,9 @@
+Script started on 2025-01-08 11:02:10+01:00 [TERM="xterm-256color" TTY="/dev/pts/7" COLUMNS="98" LINES="11"]
+/bin/python3 /shared/kent/Documents/programmering3/pg-live/date/d250108/python/x.py
+[?2004h[94mdate/d250108 (B[m$ /bin/python3 /shared/kent/Documents/programmering3/pg-live/date/d250108/python/x.py
+[?2004lHej, jag heter Anna och är 30 år gammal.
+Hallå, jag heter Anna och är 30 år gammal.
+[?2004h[94mdate/d250108 (B[m$ [?2004l
+exit
+
+Script done on 2025-01-08 12:31:58+01:00 [COMMAND_EXIT_CODE="0"]

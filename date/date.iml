@@ -2,8 +2,8 @@
 <module type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
-    <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/d241218" isTestSource="false" packagePrefix="lektion1" />
+    <content url="file://$USER_HOME$/Documents/programmering3/pg-live/date">
+      <sourceFolder url="file://$USER_HOME$/Documents/programmering3/pg-live/date" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

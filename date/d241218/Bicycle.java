@@ -1,4 +1,4 @@
-package lektion1;
+package d241218;
 
 class Bicycle {
     int cadence = 0;
