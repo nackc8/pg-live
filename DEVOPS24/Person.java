@@ -10,7 +10,8 @@ class Person {
     }
 
     String greet() {
-        return greet("Hej");
+        return "Hej" + ", jag heter " + name + " och är " + age + " år gammal.";
+//        return greet("Hej");
     }
 
     String greet(String greeting) {
