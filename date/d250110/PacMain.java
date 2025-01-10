@@ -10,6 +10,5 @@ public class PacMain {
         for (PacAnimal i : levelObjects) {
             System.out.println(i);
         }
-
     }
 }
