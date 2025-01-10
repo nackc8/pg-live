@@ -1,6 +1,6 @@
 package com.mycompany.app;
 
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
 import org.junit.jupiter.api.Test;
 // Test driven development
@@ -14,5 +14,8 @@ public class AlgorithmTest {
     @Test
     public void empty() {
         var algorithm = new Algorithm();
+
+        int[] array = {};
+        assertArrayEquals(algorithm.sort(array));
     }
 }
