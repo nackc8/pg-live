@@ -1,5 +1,7 @@
 package d250110;
 
+// Ett interface implementerar man..
+
 public class Pacman implements PacAnimal {
 
     @Override
