@@ -4,8 +4,12 @@ public class Algorithm {
     public int[] sort(int[] unsorted) {
         int[] ret = new int[unsorted.length];
 
-        for (int element : unsorted) {
+        int min = Integer.MAX_VALUE;
 
+        for (int element : unsorted) {
+            if (element < min) {
+                min = element;
+            }
         }
 
         return ret;
