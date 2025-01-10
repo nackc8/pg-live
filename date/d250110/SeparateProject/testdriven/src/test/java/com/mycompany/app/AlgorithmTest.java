@@ -36,4 +36,13 @@ public class AlgorithmTest {
         assertArrayEquals(output, algorithm.sort(input));
     }
 
+    @Test
+    public void threeInts() {
+        var algorithm = new Algorithm();
+
+        int[] input = {3, 2, 1};
+        int[] output = {1, 2, 3};
+        assertArrayEquals(output, algorithm.sort(input));
+    }
+
 }
