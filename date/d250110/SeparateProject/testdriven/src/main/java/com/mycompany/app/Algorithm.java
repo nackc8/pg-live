@@ -7,14 +7,16 @@ public class Algorithm {
 
         int min = Integer.MAX_VALUE;
 
-        for (int element : unsorted) {
-            if (element < min) {
-                min = element;
+        for (int count = 0 ; count < unsorted.length ; count++) {
+            for (int element : unsorted) {
+                if (element < min) {
+                    min = element;
+                }
             }
-        }
 
-        ret[retIndex] = min;
-        retIndex++;
+            ret[retIndex] = min;
+            retIndex++;
+        }
 
         return ret;
     }
