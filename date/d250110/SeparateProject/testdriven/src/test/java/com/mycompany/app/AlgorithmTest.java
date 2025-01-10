@@ -13,6 +13,6 @@ public class AlgorithmTest {
 
     @Test
     public void empty() {
-        assertTrue(true);
+        var algorithm = new Algorithm();
     }
 }
