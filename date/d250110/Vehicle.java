@@ -1,5 +1,5 @@
 package d250110;
 
-public class Test {
+public class Vehicle {
     // Hej fredag!
 }
