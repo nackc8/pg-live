@@ -6,8 +6,7 @@ import java.util.ArrayList;
 public class ListUser {
     public static void main(String[] args) {
         List list = new ArrayList();
-        list.add("hello");
-        var uncasted = list.get(0);
+        list.add(1);
         String s = (String) list.get(0);
     }
 }
