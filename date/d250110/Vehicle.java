@@ -1,6 +1,6 @@
 package d250110;
 
-public class Vehicle {
+public abstract class Vehicle {
     int angleRadians = 0;
     int speed = 0;
 
@@ -9,5 +9,5 @@ public class Vehicle {
         this.speed = speed;
     }
 
-    public  void signal();
+    public abstract void signal();
 }
