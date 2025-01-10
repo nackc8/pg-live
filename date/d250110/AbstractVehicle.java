@@ -9,5 +9,9 @@ public abstract class AbstractVehicle {
         this.speed = speed;
     }
 
+    public void incSpeed(int s) {
+        speed += s;
+    }
+
     public abstract void signal();
 }
