@@ -4,7 +4,9 @@ package d250110;
 // så är List ett exempel på ett interface för klasser som man kan
 // behandla som en lista.
 //
-// Sedan finns det många olika listor som ArrayList och liknande.
+// Sedan finns det många olika listor som ArrayList och liknande. De
+// olika sorternas listor är så pass olika att man inte tjänar på att
+// ha en gemensam basklass som innehåller kod.
 
 public interface PacAnimal {
     public void moveLeft();
