@@ -1,6 +1,6 @@
 package d250110;
 
-public class Pacman implements PacAnimal {
+public class Ghost implements PacAnimal {
 
     @Override
     public void moveLeft() {
