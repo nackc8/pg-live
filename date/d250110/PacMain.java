@@ -5,10 +5,10 @@ public class PacMain {
     Pacman p = new Pacman();
 
     PacAnimal[] levelObjects = {g,p};
-
-    for (PacAnimal i : levelObjects) {
-        System.out.println(i);
-    }
+    
+//    for (PacAnimal i : levelObjects) {
+//        System.out.println(i);
+//    }
 
 
 }
