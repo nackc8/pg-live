@@ -18,4 +18,21 @@ public class AlgorithmTest {
         int[] array = {};
         assertArrayEquals(array, algorithm.sort(array));
     }
+
+    @Test
+    public void single() {
+        var algorithm = new Algorithm();
+
+        int[] array = {1};
+        assertArrayEquals(array, algorithm.sort(array));
+    }
+
+    @Test
+    public void two() {
+        var algorithm = new Algorithm();
+
+        int[] array = {2, 1};
+        assertArrayEquals(array, algorithm.sort(array));
+    }
+
 }
