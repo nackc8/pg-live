@@ -1,6 +1,6 @@
 package d250110;
 
-public class Ghost implements PacAnimal {
+public class Ghost implements PacAnimal, PacAI {
 
     @Override
     public void moveLeft() {
@@ -20,5 +20,10 @@ public class Ghost implements PacAnimal {
     @Override
     public void moveDown() {
         System.out.println("Down");
+    }
+
+    @Override
+    public void decideDirection() {
+        System.out.println("Go left");
     }
 }
