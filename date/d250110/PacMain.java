@@ -6,7 +6,9 @@ public class PacMain {
 
     PacAnimal[] levelObjects = {g,p};
 
-    for (PacAnimal pa : levelObjects) {
-        //
+    for (PacAnimal i : levelObjects) {
+        System.out.println(i);
     }
+
+
 }
