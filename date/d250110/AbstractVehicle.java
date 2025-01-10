@@ -1,10 +1,10 @@
 package d250110;
 
-public abstract class Vehicle {
+public abstract class AbstractVehicle {
     int angleRadians = 0;
     int speed = 0;
 
-    public Vehicle(int angleRadians, int speed) {
+    public AbstractVehicle(int angleRadians, int speed) {
         this.angleRadians = angleRadians;
         this.speed = speed;
     }
