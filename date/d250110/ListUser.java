@@ -9,7 +9,7 @@ public class ListUser {
 //        list.add("hello");
 //        String s = (String) list.get(0);
         List<String> list = new ArrayList<String>();
-        list.add(1);
+        list.add("hello");
         String s = list.get(0);
     }
 }
