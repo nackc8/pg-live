@@ -16,6 +16,6 @@ public class AlgorithmTest {
         var algorithm = new Algorithm();
 
         int[] array = {};
-        assertArrayEquals(algorithm.sort(array));
+        assertArrayEquals(array, algorithm.sort(array));
     }
 }
