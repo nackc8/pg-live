@@ -3,6 +3,7 @@ public class Algorithm {
     // low to high
     public int[] sort(int[] unsorted) {
         int[] ret = new int[unsorted.length];
+        int retIndex = 0;
 
         int min = Integer.MAX_VALUE;
 
@@ -11,6 +12,9 @@ public class Algorithm {
                 min = element;
             }
         }
+
+        ret[retIndex] = min;
+        retIndex++;
 
         return ret;
     }
