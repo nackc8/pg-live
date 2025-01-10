@@ -31,8 +31,9 @@ public class AlgorithmTest {
     public void two() {
         var algorithm = new Algorithm();
 
-        int[] array = {2, 1};
-        assertArrayEquals(array, algorithm.sort(array));
+        int[] input = {2, 1};
+        int[] output = {1, 2};
+        assertArrayEquals(output, algorithm.sort(input));
     }
 
 }
