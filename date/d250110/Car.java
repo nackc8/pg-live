@@ -9,4 +9,8 @@ public class Car extends AbstractVehicle {
     public void signal() {
         System.out.println("Honk!");
     }
+
+    public void autoSteering() {
+        System.out.println("Auto");
+    }
 }

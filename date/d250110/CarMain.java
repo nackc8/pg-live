@@ -8,5 +8,6 @@ public class CarMain {
 
         c.incSpeed(4);
         c.signal();
+        c.autoSteering(); // Finns i Car
     }
 }
