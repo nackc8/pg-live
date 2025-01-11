@@ -11,6 +11,8 @@ script_dir=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
 source ~/.bashrc
 source "$script_dir/shshared"
 
+cd "$(git rev-parse --show-toplevel 2>/dev/null)" || exit 1
+
 _rel_path() {
     local prompt
     local root
