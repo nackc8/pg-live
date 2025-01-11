@@ -1,0 +1,47 @@
+Script started on 2025-01-10 10:09:05+01:00 [TERM="xterm-256color" TTY="/dev/pts/3" COLUMNS="107" LINES="9"]
+[?2004h[94mdate/date/d250110
+(B[m$ [K(B[m$ ls
+[?2004lrecordings
+[?2004h[94mdate/date/d250110
+(B[m$ cd ..
+[?2004l[?2004h[94mdate/date (B[m$ ls
+[?2004ld250110
+[?2004h[94mdate/date (B[m$ cd ..
+[?2004l[?2004h[94mdate (B[m$ ls
+[?2004ld241218  d250108  date	date.iml  DEVOPS24
+[?2004h[94mdate (B[m$ ls date
+[?2004ld250110
+[?2004h[94mdate (B[m$ cd date
+[?2004l[?2004h[94mdate/date (B[m$ ls
+[?2004ld250110
+[?2004h[94mdate/date (B[m$ cd d250110/
+[?2004l[?2004h[94mdate/date/d250110
+(B[m$ ls
+[?2004lrecordings
+[?2004h[94mdate/date/d250110
+(B[m$ mv [K[K[Kcd ..
+[?2004l[?2004h[94mdate/date (B[m$ ls
+[?2004ld250110
+[?2004h[94mdate/date (B[m$ pwd
+[?2004l/shared/kent/Documents/programmering3/pg-live/date/date
+[?2004h[94mdate/date (B[m$ cd[K[Kmv d250110/ ..
+[?2004l[?2004h[94mdate/date (B[m$ cd ..
+[?2004l[?2004h[94mdate (B[m$ ls
+[?2004ld241218  d250108  d250110  date  date.iml  DEVOPS24
+[?2004h[94mdate (B[m$ rmdir date
+[?2004l[?2004h[94mdate (B[m$ ls
+[?2004ld241218  d250108  d250110  date.iml  DEVOPS24
+[?2004h[94mdate (B[m$ cd [K[K[Kcd d254[K0110/
+[?2004l[?2004h[94mdate/d250110 (B[m$ ls
+[?2004lrecordings
+[?2004h[94mdate/d250110 (B[m$ cd recordings/
+[?2004l[?2004h[94mdate/d250110/recordings
+(B[m$ ls
+[?2004l100844_timing.txt  100844.txt  Test.java
+[?2004h[94mdate/d250110/recordings
+(B[m$ mv R[KTest.java  ..
+[?2004l[?2004h[94mdate/d250110/recordings
+(B[m$ exit
+[?2004lexit
+
+Script done on 2025-01-10 10:12:00+01:00 [COMMAND_EXIT_CODE="0"]
