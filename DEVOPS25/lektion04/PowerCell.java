@@ -5,6 +5,7 @@ public class PowerCell {
 
     public static void main(String[] args) {
         PowerCell cell1 = new PowerCell();
+        cell1.power = 0.3f;
 
         System.out.println(cell1.power);
     }
