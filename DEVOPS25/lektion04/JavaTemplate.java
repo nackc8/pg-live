@@ -1,7 +1,7 @@
-import static java.lang.System.out;
 
-public class JavaTest {
+
+public class JavaTemplate {
     public static void main(String[] args) {
-        out.println("Yo5");
+        System.out.println("");
     }
 }
