@@ -1,9 +1,12 @@
 
 
-public class TernarySep {
+public class TernaryTied {
     public static void main(String[] args) {
         boolean big = true;
         boolean dangerous = true;
+
+        // Mål:
+        // 
 
         var size = 100 + (big ? 50: 0) + (dangerous ? 200 : 0);
 
