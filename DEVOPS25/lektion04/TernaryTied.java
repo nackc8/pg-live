@@ -11,7 +11,7 @@ public class TernaryTied {
         // Om inte big, men dangerous
         //  size += + 200  , annars + 0
 
-        var size = 100 + (big ? 50: (dangerous ? 200 : 0));
+        var size = 100 + (big ? 50: (dangerous ? 200 : 30));
 
         System.out.println(size);
 
@@ -20,6 +20,8 @@ public class TernaryTied {
             sizeNonTernary += 50;
         } else if (dangerous) {
             sizeNonTernary += 200;
+        } else {
+            sizeNonTernary += 30;
         }
 
         System.out.println(sizeNonTernary);
