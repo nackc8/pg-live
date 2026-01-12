@@ -13,6 +13,6 @@ public class PowerCell {
 
         System.out.println(cell1.power);
         System.out.println(cell2.power);
-        System.out.println()
+        System.out.println(PowerCell.totalPower);
     }
 }
