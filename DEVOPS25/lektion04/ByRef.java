@@ -1,9 +1,12 @@
 
 
 public class ByRef {
-    public static void main(String[] args) {
-        int x;
-        x = null;
+    public int age = 0;
+}
+
+class Run {
+        public static void main(String[] args) {
+            var obj = ByRef();
         System.out.println(x);
     }
 }
