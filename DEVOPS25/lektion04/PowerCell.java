@@ -12,6 +12,7 @@ public class PowerCell {
 
     public PowerCell() {
         this(1f);
+        this()
     }
 
     public float getPower() {
