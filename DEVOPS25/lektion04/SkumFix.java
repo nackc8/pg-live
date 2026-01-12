@@ -1,6 +1,6 @@
 
 
-public class SkumPostfix {
+public class SkumFix {
     public static void main(String[] args) {
         int x = 10;
         // Post = ändra direkt EFTERÅT
