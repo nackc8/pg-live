@@ -1,4 +1,7 @@
 
 public class ByRefRun {
-    public int age = 0;
+    public static void main() {
+        var obj = new ByRef();
+        System.out.println(obj.age);
+    }
 }
