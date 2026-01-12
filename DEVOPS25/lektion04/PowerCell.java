@@ -15,6 +15,7 @@ public class PowerCell {
 
     public static void main(String[] args) {
         PowerCell cell1 = new PowerCell();
+        cell1.power = 2f;
         PowerCell cell2 = new PowerCell(0.5f);
 
         System.out.println(cell1.power);
