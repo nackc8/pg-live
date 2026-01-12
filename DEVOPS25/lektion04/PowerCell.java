@@ -9,6 +9,10 @@ public class PowerCell {
         this.power = power;
     }
 
+    public PowerCell() {
+        this.power = 0.f;
+    }
+
     public static void main(String[] args) {
         PowerCell cell1 = new PowerCell();
         cell1.power = 0.3f;
