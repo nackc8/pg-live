@@ -12,6 +12,7 @@ public class ByRefRun {
 
     public static void main(String[] args) {
         var obj = new ByRef();
+        var two = obj; // count i ByRef = 2 variabler som pekar på objektet
         increase(obj);
         System.out.println(obj.age);
         var prim = 123;
