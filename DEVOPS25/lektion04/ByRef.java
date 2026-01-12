@@ -1,3 +1,3 @@
 public class ByRef {
-    public int age = 0;
+    public int age = 12;
 }
