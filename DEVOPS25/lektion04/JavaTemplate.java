@@ -3,7 +3,7 @@
 public class JavaTemplate {
     public static void main(String[] args) {
         int x;
-        x = 1;
+        x = null;
         System.out.println(x);
     }
 }
