@@ -16,6 +16,10 @@ public class PowerCell {
         this(1f);
     }
 
+    public float getPIPower() {
+        return this.PI * this.power;
+    }
+
     public float getPower() {
         return this.power;
     }
