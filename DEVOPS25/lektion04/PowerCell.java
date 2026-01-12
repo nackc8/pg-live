@@ -5,17 +5,13 @@ public class PowerCell {
 
     private float power = 0.0f;
 
-    private void addPower(float power) {
+    public PowerCell(float power) {
         PowerCell.totalPower += power;
         this.power = power;
     }
 
-    public PowerCell(float power) {
-        addPower(power);
-    }
-
     public PowerCell() {
-        addPower(1f);
+        this(1f);
     }
 
     public float getPower() {
