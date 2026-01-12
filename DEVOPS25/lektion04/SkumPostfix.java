@@ -1,9 +1,8 @@
 
 
-public class JavaTemplate {
+public class SkumPostfix {
     public static void main(String[] args) {
-        int x;
-        x = null;
+        int x = 10;
         System.out.println(x);
     }
 }
