@@ -5,7 +5,7 @@ public class PowerCellMain {
         PowerCell cell1 = new PowerCell(0.7f);
         PowerCell cell2 = new PowerCell(0.2f);
         PowerCell cell3 = new PowerCell();
-        System.out.printf("cell1.power = %f",cell1.getPower());
+        System.out.printf("cell1.power = %f\n",cell1.getPower());
         System.out.println(PowerCell.totalPower);
     }
 }
