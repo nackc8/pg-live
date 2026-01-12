@@ -6,6 +6,14 @@ public class PowerCell {
     private float power = 0.0f;
 
     static final float PI = 3.141592f;
+    static int foo;
+
+    static {
+        foo = 1;
+        for (int i = 0; i < 10; i++) {
+            foo *= 3;
+        }
+    }
 
     public PowerCell(float power) {
         PowerCell.totalPower += power;
