@@ -3,7 +3,7 @@
 public class PowerCell {
     static float totalPower = 0.0f;
 
-    float power = 0.0f;
+    private float power = 0.0f;
 
     public PowerCell(int power) {
         this.power = power;
