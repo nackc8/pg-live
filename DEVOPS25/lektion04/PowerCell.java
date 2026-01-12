@@ -1,6 +1,6 @@
 
 
-public class JavaTemplate {
+public class PowerCell {
     public static void main(String[] args) {
         int x;
         x = null;
