@@ -5,6 +5,8 @@ public class PowerCell {
 
     private float power = 0.0f;
 
+    static final double PI = 3.141592653589793;
+
     public PowerCell(float power) {
         PowerCell.totalPower += power;
         this.power = power;
