@@ -13,6 +13,10 @@ public class PowerCell {
         this.power = 0.f;
     }
 
+    public float getPower() {
+        return this.power;
+    }
+
     public static void main(String[] args) {
         PowerCell cell1 = new PowerCell();
         cell1.power = 2f;
