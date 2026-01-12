@@ -5,5 +5,6 @@ public class SkumPostfix {
         int x = 10;
         System.out.printf("x = %d\n", x++);
         System.out.printf("x = %d\n", x);
+        System.out.printf("x = %d\n", x--);
     }
 }
