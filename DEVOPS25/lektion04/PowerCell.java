@@ -8,6 +8,7 @@ public class PowerCell {
     static final float PI = 3.141592f;
     static int foo;
 
+    // Behövs när ett uttryck inte räcker till, om t.ex. en for-loop behövs
     static {
         foo = 1;
         for (int i = 0; i < 10; i++) {
