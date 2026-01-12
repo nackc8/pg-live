@@ -2,6 +2,8 @@
 public class ByRefRun {
     public static void increaseInt(int i) {
         i += 1;
+        System.out.println("local: " + i);
+
     }
 
     public static void increase(ByRef b) {
