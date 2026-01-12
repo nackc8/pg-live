@@ -5,7 +5,7 @@ public class PowerCell {
 
     private float power = 0.0f;
 
-    public PowerCell(int power) {
+    public PowerCell(float power) {
         this.power = power;
     }
 
@@ -15,9 +15,7 @@ public class PowerCell {
 
     public static void main(String[] args) {
         PowerCell cell1 = new PowerCell();
-        cell1.power = 0.3f;
-        PowerCell cell2 = new PowerCell();
-        cell2.power = 0.5f;
+        PowerCell cell2 = new PowerCell(0.5f);
 
         System.out.println(cell1.power);
         System.out.println(cell2.power);
