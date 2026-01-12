@@ -11,6 +11,7 @@ public class PowerCell {
     }
 
     public PowerCell() {
+        PowerCell.totalPower += 1f;
         this.power = 1.f;
     }
 
