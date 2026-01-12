@@ -2,7 +2,7 @@
 
 public class DoWhile {
     public static void main(String[] args) {
-        int number = 100;
+        int number = 100_000;
 
         do {
             number += 200;
