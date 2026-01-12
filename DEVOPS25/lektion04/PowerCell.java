@@ -5,7 +5,7 @@ public class PowerCell {
 
     private float power = 0.0f;
 
-    static final double PI = 3.141592653589793;
+    static final float PI = 3.141592f;
 
     public PowerCell(float power) {
         PowerCell.totalPower += power;
@@ -17,6 +17,7 @@ public class PowerCell {
     }
 
     public float getPIPower() {
+        this.PI = 3f;
         return this.PI * this.power;
     }
 
