@@ -6,6 +6,7 @@ public class TernaryTied {
         boolean dangerous = true;
 
         // Mål:
+        // big + 50  , annars + 0
         // 
 
         var size = 100 + (big ? 50: 0) + (dangerous ? 200 : 0);
