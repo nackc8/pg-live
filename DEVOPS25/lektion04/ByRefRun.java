@@ -1,7 +1,7 @@
 
 public class ByRefRun {
     public static void increaseInteger(Integer i) {
-        i.
+        i += 1;
     }
 
     public static void increaseInt(int i) {
