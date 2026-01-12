@@ -1,6 +1,6 @@
 
 
-public class JavaTemplate {
+public class ByRef {
     public static void main(String[] args) {
         int x;
         x = null;
