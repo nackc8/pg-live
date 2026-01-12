@@ -18,8 +18,7 @@ public class TernaryTied {
         var sizeNonTernary = 100;
         if (big) {
             sizeNonTernary += 50;
-        }
-        if (dangerous) {
+        } else if (dangerous) {
             sizeNonTernary += 200;
         }
 
