@@ -1,6 +1,6 @@
 
 
-public class Ternary {
+public class TernarySep {
     public static void main(String[] args) {
         boolean big = true;
         boolean dangerous = true;
