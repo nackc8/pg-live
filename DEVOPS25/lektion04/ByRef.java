@@ -6,7 +6,7 @@ public class ByRef {
 
 class Run {
         public static void main(String[] args) {
-            var obj = ByRef();
-        System.out.println(x);
+            var obj = new ByRef();
+            System.out.println(obj.age);
     }
 }
