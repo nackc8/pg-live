@@ -17,7 +17,8 @@ public class PowerCell {
     }
 
     public float getPIPower() {
-        this.PI = 3f;
+// Bad: Konstant!
+//        this.PI = 3f;
         return this.PI * this.power;
     }
 
