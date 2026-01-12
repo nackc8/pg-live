@@ -6,6 +6,7 @@ public class PowerCell {
     private float power = 0.0f;
 
     public PowerCell(float power) {
+        PowerCell.totalPower += power;
         this.power = power;
     }
 
