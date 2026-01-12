@@ -6,10 +6,12 @@ public class TernaryTied {
         boolean dangerous = true;
 
         // Mål:
-        // big + 50  , annars + 0
-        // 
+        // Om big:
+        //  size += + 50  , annars + 0
+        // Om inte big, men dangerous
+        //  size += + 200  , annars + 0
 
-        var size = 100 + (big ? 50: 0) + (dangerous ? 200 : 0);
+        var size = 100 + (big ? 50: (dangerous ? 200 : 0));
 
         System.out.println(size);
 
