@@ -11,7 +11,7 @@ public class PowerCell {
     }
 
     public PowerCell() {
-        this.power = 0.f;
+        this.power = 1.f;
     }
 
     public float getPower() {
