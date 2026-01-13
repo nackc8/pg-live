@@ -6,7 +6,7 @@ public class StrImmutable {
 
         namn = "Pelle";
 
-        var namn2 = namn; // Samma strängobjekt!
+        var namn2 = "Pelle"; // Samma strängobjekt!
 
         int x = 1;
         System.out.println(x);
