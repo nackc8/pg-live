@@ -14,9 +14,9 @@ public class BoxRun {
         // Typ = Objecgt
         var iobjladan = obox.get();
         // Funkar inte.
-//        System.out.println(iobjladan.length());
+        System.out.println(((String) iobjladan).length());
         String iobjladankonverat = (String) iobjladan;
-        System.out.println(iobjladankonverat.length());
+//        System.out.println(iobjladankonverat.length());
 
     }
 }
