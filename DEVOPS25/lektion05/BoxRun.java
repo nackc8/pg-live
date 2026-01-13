@@ -13,6 +13,8 @@ public class BoxRun {
         obox.set(greeting);
         // Typ = Objecgt
         var iobjladan = obox.get();
+        // Funkar inte.
         System.out.println(iobjladan.length);
+        String iobjladankonverat = iobjladan;
     }
 }
