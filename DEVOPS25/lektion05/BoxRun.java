@@ -10,7 +10,7 @@ public class BoxRun {
         // Exempel med Box som inte är generisk och lagrar typen Object
 
         Box obox = new Box();
-        obox.set(greeting);
+        obox.set(123);
         // Typ = Objecgt
         var iobjladan = obox.get();
         // Funkar inte.
