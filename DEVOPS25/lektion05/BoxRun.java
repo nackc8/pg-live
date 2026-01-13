@@ -5,5 +5,7 @@ public class BoxRun {
         // lada.set(greeting);
 
         // var iboxen = lada.get();
+
+        // Exempel med Box som i
     }
 }
