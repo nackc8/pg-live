@@ -4,12 +4,15 @@ public class BoxRun {
         var greeting = "Hej";
         // lada.set(greeting);
 
+        // typ = String
         // var iboxen = lada.get();
 
         // Exempel med Box som inte är generisk och lagrar typen Object
 
         Box obox = new Box();
         obox.set(greeting);
+        // Typ = Objecgt
         var iobjladan = obox.get();
+        System.out.println(iobjladan.length);
     }
 }
