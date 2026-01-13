@@ -13,7 +13,7 @@ public class BoxRun {
 
         // Box obox = new Box();
         // obox.set(greeting);
-        // // Typ = Objecgt
+        // // Typ = Object
         // var iobjladan = obox.get();
         // // Funkar inte.
         // System.out.println(((String) iobjladan).length());
