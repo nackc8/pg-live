@@ -1,11 +1,11 @@
 public class BoxRun {
     public static void main(String[] args) {
-        // Box<String> lada = new Box<String>();
+        Box<String> lada = new Box<String>();
         var greeting = "Hej";
-        // lada.set(greeting);
+        lada.set(greeting);
 
         // typ = String
-        // var iboxen = lada.get();
+        var iboxen = lada.get();
 
         // Exempel med Box som inte är generisk och lagrar typen Object
 
