@@ -9,14 +9,16 @@ public class BoxRun {
 
         // Exempel med Box som inte är generisk och lagrar typen Object
 
-        Box obox = new Box();
-        obox.set(greeting);
-        // Typ = Objecgt
-        var iobjladan = obox.get();
-        // Funkar inte.
-        System.out.println(((String) iobjladan).length());
-        String iobjladankonverat = (String) iobjladan;
-//        System.out.println(iobjladankonverat.length());
+        // Mer jobb, högre risk
+
+        // Box obox = new Box();
+        // obox.set(greeting);
+        // // Typ = Objecgt
+        // var iobjladan = obox.get();
+        // // Funkar inte.
+        // System.out.println(((String) iobjladan).length());
+        // String iobjladankonverat = (String) iobjladan;
+        // System.out.println(iobjladankonverat.length());
 
     }
 }
